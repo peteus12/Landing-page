@@ -1,0 +1,50 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@media(min-width:767px) {
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+body {
+    padding-top: 0px;
+    background: #fff;
+}
+
+
+
+.panel-heading[data-toggle="collapse"]::after{
+	font-family: "FontAwesome";
+	content: "\f068";
+	float:right;
+	font-size: 16px;
+}
+.panel-heading[data-toggle="collapse"].collapsed:after{
+	content: "\f067";
+}
+#faq .panel-heading.collapsed{
+	background-color: #fff;
+	color: #313447;
+}
+#faq .panel-heading:hover{
+	background-color: #313447;
+	color: #fff;
+}
+.panel-heading[data-toggle="collapse"]{
+	background-color: #313447;
+	color: #fff;
+}
